@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+}
+
+#cal {
+	width: 640px;
+	height: 960px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+#cal-top-dark {
+	width: 100%;
+	height: 216px;
+}
+
+#cal-top-dark .calResult {
+	background-color: black; 
+	color: white;
+	width: 604px;
+	height: 176px;
+	margin: 40px 0 0 0;
+	padding-right: 36px;
+	display: inline-block;
+	text-align: right;
+	font-size: 9em;
+	font-family: calibri;
+	border: 0;
+}
+
+#cal-button {
+	width: 100%;
+	height: 744px;
+	margin-top: 0;
+}
+
+.grisone {
+	width: 159px;
+	height: 148px;
+	float: left;
+	margin: 0 1px 1px 0;
+	background-color: #d6d7d9;
+}
+
+.grisone .bouton, .gristwo .bouton {
+	width: 100%;
+	height: 100%;
+	background-color: #d6d7d9;
+}
+
+.gristwo {
+	width: 160px;
+	height: 148px;
+	float: left;
+	margin: 0 1px 1px 0;
+	background-color: #d6d7d9;
+}
+
+.orange .bouton{
+	width: 159px;
+	height: 148px;
+	float: left;
+	margin: 0 0 1px 0;
+	background-color: #f89112;
+}
+
+.grisone .bouton, .gristwo .bouton, .orange .bouton, .gristhree .bouton {
+	display: inline-block;
+	font-size: 6em;
+	line-height: 148px;
+	width: 159px;
+	text-align: center;
+}
+
+.gristhree .bouton{
+	width: 319px;
+	height: 148px;
+	float: left;
+	margin: 0 1px 0 0;
+	background-color: #d6d7d9;
+}
+
